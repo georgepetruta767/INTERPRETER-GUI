@@ -1,0 +1,536 @@
+ID: 5
+The execution stack is: 
+(int v;(Ref(int) a;(v=10;(new(a, 22);(Fork((writeHeap( a, 30 );(v=32;(print(v);print(readHeap( a ))))));(print(v);print(readHeap( a ))))))))
+
+The symbols table is: {}
+The output is: 
+
+The file table is: {}
+The heap is: {}
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ID: 5
+The execution stack is: 
+int v
+(Ref(int) a;(v=10;(new(a, 22);(Fork((writeHeap( a, 30 );(v=32;(print(v);print(readHeap( a ))))));(print(v);print(readHeap( a )))))))
+
+The symbols table is: {}
+The output is: 
+
+The file table is: {}
+The heap is: {}
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ID: 5
+The execution stack is: 
+int v
+(Ref(int) a;(v=10;(new(a, 22);(Fork((writeHeap( a, 30 );(v=32;(print(v);print(readHeap( a ))))));(print(v);print(readHeap( a )))))))
+
+The symbols table is: {}
+The output is: 
+
+The file table is: {}
+The heap is: {}
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ID: 5
+The execution stack is: 
+(Ref(int) a;(v=10;(new(a, 22);(Fork((writeHeap( a, 30 );(v=32;(print(v);print(readHeap( a ))))));(print(v);print(readHeap( a )))))))
+
+The symbols table is: {v=0}
+The output is: 
+
+The file table is: {}
+The heap is: {}
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ID: 5
+The execution stack is: 
+(Ref(int) a;(v=10;(new(a, 22);(Fork((writeHeap( a, 30 );(v=32;(print(v);print(readHeap( a ))))));(print(v);print(readHeap( a )))))))
+
+The symbols table is: {v=0}
+The output is: 
+
+The file table is: {}
+The heap is: {}
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ID: 5
+The execution stack is: 
+Ref(int) a
+(v=10;(new(a, 22);(Fork((writeHeap( a, 30 );(v=32;(print(v);print(readHeap( a ))))));(print(v);print(readHeap( a ))))))
+
+The symbols table is: {v=0}
+The output is: 
+
+The file table is: {}
+The heap is: {}
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ID: 5
+The execution stack is: 
+Ref(int) a
+(v=10;(new(a, 22);(Fork((writeHeap( a, 30 );(v=32;(print(v);print(readHeap( a ))))));(print(v);print(readHeap( a ))))))
+
+The symbols table is: {v=0}
+The output is: 
+
+The file table is: {}
+The heap is: {}
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ID: 5
+The execution stack is: 
+(v=10;(new(a, 22);(Fork((writeHeap( a, 30 );(v=32;(print(v);print(readHeap( a ))))));(print(v);print(readHeap( a ))))))
+
+The symbols table is: {a=(0,int), v=0}
+The output is: 
+
+The file table is: {}
+The heap is: {}
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ID: 5
+The execution stack is: 
+(v=10;(new(a, 22);(Fork((writeHeap( a, 30 );(v=32;(print(v);print(readHeap( a ))))));(print(v);print(readHeap( a ))))))
+
+The symbols table is: {a=(0,int), v=0}
+The output is: 
+
+The file table is: {}
+The heap is: {}
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ID: 5
+The execution stack is: 
+v=10
+(new(a, 22);(Fork((writeHeap( a, 30 );(v=32;(print(v);print(readHeap( a ))))));(print(v);print(readHeap( a )))))
+
+The symbols table is: {a=(0,int), v=0}
+The output is: 
+
+The file table is: {}
+The heap is: {}
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ID: 5
+The execution stack is: 
+v=10
+(new(a, 22);(Fork((writeHeap( a, 30 );(v=32;(print(v);print(readHeap( a ))))));(print(v);print(readHeap( a )))))
+
+The symbols table is: {a=(0,int), v=0}
+The output is: 
+
+The file table is: {}
+The heap is: {}
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ID: 5
+The execution stack is: 
+(new(a, 22);(Fork((writeHeap( a, 30 );(v=32;(print(v);print(readHeap( a ))))));(print(v);print(readHeap( a )))))
+
+The symbols table is: {a=(0,int), v=10}
+The output is: 
+
+The file table is: {}
+The heap is: {}
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ID: 5
+The execution stack is: 
+(new(a, 22);(Fork((writeHeap( a, 30 );(v=32;(print(v);print(readHeap( a ))))));(print(v);print(readHeap( a )))))
+
+The symbols table is: {a=(0,int), v=10}
+The output is: 
+
+The file table is: {}
+The heap is: {}
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ID: 5
+The execution stack is: 
+new(a, 22)
+(Fork((writeHeap( a, 30 );(v=32;(print(v);print(readHeap( a ))))));(print(v);print(readHeap( a ))))
+
+The symbols table is: {a=(0,int), v=10}
+The output is: 
+
+The file table is: {}
+The heap is: {}
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ID: 5
+The execution stack is: 
+new(a, 22)
+(Fork((writeHeap( a, 30 );(v=32;(print(v);print(readHeap( a ))))));(print(v);print(readHeap( a ))))
+
+The symbols table is: {a=(0,int), v=10}
+The output is: 
+
+The file table is: {}
+The heap is: {}
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ID: 5
+The execution stack is: 
+(Fork((writeHeap( a, 30 );(v=32;(print(v);print(readHeap( a ))))));(print(v);print(readHeap( a ))))
+
+The symbols table is: {a=(1,int), v=10}
+The output is: 
+
+The file table is: {}
+The heap is: {1=22}
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ID: 5
+The execution stack is: 
+(Fork((writeHeap( a, 30 );(v=32;(print(v);print(readHeap( a ))))));(print(v);print(readHeap( a ))))
+
+The symbols table is: {a=(1,int), v=10}
+The output is: 
+
+The file table is: {}
+The heap is: {1=22}
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ID: 5
+The execution stack is: 
+Fork((writeHeap( a, 30 );(v=32;(print(v);print(readHeap( a ))))))
+(print(v);print(readHeap( a )))
+
+The symbols table is: {a=(1,int), v=10}
+The output is: 
+
+The file table is: {}
+The heap is: {1=22}
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ID: 5
+The execution stack is: 
+Fork((writeHeap( a, 30 );(v=32;(print(v);print(readHeap( a ))))))
+(print(v);print(readHeap( a )))
+
+The symbols table is: {a=(1,int), v=10}
+The output is: 
+
+The file table is: {}
+The heap is: {1=22}
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ID: 5
+The execution stack is: 
+(print(v);print(readHeap( a )))
+
+The symbols table is: {a=(1,int), v=10}
+The output is: 
+
+The file table is: {}
+The heap is: {1=22}
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ID: 6
+The execution stack is: 
+(writeHeap( a, 30 );(v=32;(print(v);print(readHeap( a )))))
+
+The symbols table is: {a=(1,int), v=10}
+The output is: 
+
+The file table is: {}
+The heap is: {1=22}
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ID: 5
+The execution stack is: 
+(print(v);print(readHeap( a )))
+
+The symbols table is: {a=(1,int), v=10}
+The output is: 
+
+The file table is: {}
+The heap is: {1=22}
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ID: 6
+The execution stack is: 
+(writeHeap( a, 30 );(v=32;(print(v);print(readHeap( a )))))
+
+The symbols table is: {a=(1,int), v=10}
+The output is: 
+
+The file table is: {}
+The heap is: {1=22}
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ID: 5
+The execution stack is: 
+print(v)
+print(readHeap( a ))
+
+The symbols table is: {a=(1,int), v=10}
+The output is: 
+
+The file table is: {}
+The heap is: {1=22}
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ID: 6
+The execution stack is: 
+writeHeap( a, 30 )
+(v=32;(print(v);print(readHeap( a ))))
+
+The symbols table is: {a=(1,int), v=10}
+The output is: 
+
+The file table is: {}
+The heap is: {1=22}
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ID: 5
+The execution stack is: 
+print(v)
+print(readHeap( a ))
+
+The symbols table is: {a=(1,int), v=10}
+The output is: 
+
+The file table is: {}
+The heap is: {1=22}
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ID: 6
+The execution stack is: 
+writeHeap( a, 30 )
+(v=32;(print(v);print(readHeap( a ))))
+
+The symbols table is: {a=(1,int), v=10}
+The output is: 
+
+The file table is: {}
+The heap is: {1=22}
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ID: 5
+The execution stack is: 
+print(readHeap( a ))
+
+The symbols table is: {a=(1,int), v=10}
+The output is: 
+10
+
+The file table is: {}
+The heap is: {1=30}
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ID: 6
+The execution stack is: 
+(v=32;(print(v);print(readHeap( a ))))
+
+The symbols table is: {a=(1,int), v=10}
+The output is: 
+10
+
+The file table is: {}
+The heap is: {1=30}
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ID: 5
+The execution stack is: 
+print(readHeap( a ))
+
+The symbols table is: {a=(1,int), v=10}
+The output is: 
+10
+
+The file table is: {}
+The heap is: {1=30}
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ID: 6
+The execution stack is: 
+(v=32;(print(v);print(readHeap( a ))))
+
+The symbols table is: {a=(1,int), v=10}
+The output is: 
+10
+
+The file table is: {}
+The heap is: {1=30}
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ID: 5
+The execution stack is: 
+
+The symbols table is: {a=(1,int), v=10}
+The output is: 
+10
+30
+
+The file table is: {}
+The heap is: {1=30}
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ID: 6
+The execution stack is: 
+v=32
+(print(v);print(readHeap( a )))
+
+The symbols table is: {a=(1,int), v=10}
+The output is: 
+10
+30
+
+The file table is: {}
+The heap is: {1=30}
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ID: 6
+The execution stack is: 
+v=32
+(print(v);print(readHeap( a )))
+
+The symbols table is: {a=(1,int), v=10}
+The output is: 
+10
+30
+
+The file table is: {}
+The heap is: {1=30}
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ID: 6
+The execution stack is: 
+(print(v);print(readHeap( a )))
+
+The symbols table is: {a=(1,int), v=32}
+The output is: 
+10
+30
+
+The file table is: {}
+The heap is: {1=30}
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ID: 6
+The execution stack is: 
+(print(v);print(readHeap( a )))
+
+The symbols table is: {a=(1,int), v=32}
+The output is: 
+10
+30
+
+The file table is: {}
+The heap is: {1=30}
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ID: 6
+The execution stack is: 
+print(v)
+print(readHeap( a ))
+
+The symbols table is: {a=(1,int), v=32}
+The output is: 
+10
+30
+
+The file table is: {}
+The heap is: {1=30}
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ID: 6
+The execution stack is: 
+print(v)
+print(readHeap( a ))
+
+The symbols table is: {a=(1,int), v=32}
+The output is: 
+10
+30
+
+The file table is: {}
+The heap is: {1=30}
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ID: 6
+The execution stack is: 
+print(readHeap( a ))
+
+The symbols table is: {a=(1,int), v=32}
+The output is: 
+10
+30
+32
+
+The file table is: {}
+The heap is: {1=30}
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ID: 6
+The execution stack is: 
+print(readHeap( a ))
+
+The symbols table is: {a=(1,int), v=32}
+The output is: 
+10
+30
+32
+
+The file table is: {}
+The heap is: {1=30}
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ID: 6
+The execution stack is: 
+
+The symbols table is: {a=(1,int), v=32}
+The output is: 
+10
+30
+32
+30
+
+The file table is: {}
+The heap is: {1=30}
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
